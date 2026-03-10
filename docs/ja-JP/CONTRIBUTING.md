@@ -155,7 +155,7 @@ agents/your-agent-name.md
 name: your-agent-name
 description: このエージェントが実行する操作と、Claude が呼び出すべき時期。具体的に！
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+model: inherit
 ---
 
 あなたは[役割]スペシャリストです。

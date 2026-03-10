@@ -89,7 +89,7 @@ git checkout -b add-python-reviewer
 name: agent-name
 description: What it does
 tools: Read, Grep, Glob, Bash
-model: sonnet
+model: inherit
 ---
 
 Instructions here...

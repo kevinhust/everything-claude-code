@@ -339,7 +339,7 @@ cp -r everything-claude-code/skills/* ~/.claude/skills/
 name: code-reviewer
 description: Reviews code for quality, security, and maintainability
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+model: inherit
 ---
 
 You are a senior code reviewer...

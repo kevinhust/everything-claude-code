@@ -80,7 +80,7 @@ PROMPT
   timeout_seconds="${ECC_OBSERVER_TIMEOUT_SECONDS:-120}"
   exit_code=0
 
-  claude --model haiku --max-turns 3 --print < "$prompt_file" >> "$LOG_FILE" 2>&1 &
+  claude --model inherit --max-turns 3 --print < "$prompt_file" >> "$LOG_FILE" 2>&1 &
   claude_pid=$!
 
   (

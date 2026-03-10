@@ -152,7 +152,7 @@ agents/your-agent-name.md
 name: your-agent-name
 description: What this agent does and when Claude should invoke it. Be specific!
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+model: inherit
 ---
 
 You are a [role] specialist.

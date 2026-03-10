@@ -1,7 +1,7 @@
 ---
 name: observer
 description: セッションの観察を分析してパターンを検出し、本能を作成するバックグラウンドエージェント。コスト効率のためにHaikuを使用します。
-model: haiku
+model: inherit
 run_mode: background
 ---
 

@@ -180,7 +180,7 @@ evolved_from:
 ---
 name: debugger
 description: 体系的なデバッグエージェント
-model: sonnet
+model: inherit
 evolved_from:
   - debug-check-logs
   - debug-isolate

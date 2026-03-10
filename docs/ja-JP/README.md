@@ -518,7 +518,7 @@ cp -r everything-claude-code/skills/* ~/.claude/skills/
 name: code-reviewer
 description: コードの品質、セキュリティ、保守性をレビュー
 tools: ["Read", "Grep", "Glob", "Bash"]
-model: opus
+model: inherit
 ---
 
 あなたは経験豊富なコードレビュアーです...

@@ -149,7 +149,7 @@ agents/your-agent-name.md
 name: 你的代理名称
 description: 该代理的作用以及 Claude 应在何时调用它。请具体说明！
 tools: ["Read", "Write", "Edit", "Bash", "Grep", "Glob"]
-model: sonnet
+model: inherit
 ---
 
 你是一名 [角色] 专家。
